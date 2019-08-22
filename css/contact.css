@@ -1,0 +1,21 @@
+#contact{
+    position: relative;
+    border: solid 6px white;
+    border-style: groove;
+    text-align: center;
+    color: white;
+    width: 30%;
+    height: 100%;
+    left: 34%;
+    background-image: url('https://i.gifer.com/EdHB.gif')
+}
+.control-group{
+    text-align: center;
+}
+.form-control{
+    border: solid 3px white;
+    border-style: groove;
+}
+.btn{
+        margin-bottom: 5%;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/main.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Deca|Permanent+Marker&display=swap" rel="stylesheet">
+    <title>Alex Scribner's Portfolio</title>
+</head>
+<body>
+
+    <!-- NavBar-->
+
+<!--Section 1: Welcome/About Me-->
+
+    <div class="parallax1">
+            <ul id="nav_bar">
+                    <li id="name"><a href="#">Alex Scribner</a></li>
+                    <li class="nav-links" id="aboutMe"><a href="#">About</a></li>
+                    <li class="nav-links" id="projects"><a href="#">Projects</a></li>
+                    <li class="nav-links" id="contactMe"><a href="#">Contact</a></li>
+                </ul>  
+        <div id="box">
+            <span id="border">Welcome!</span>
+        </div>
+    </div>
+    <div class="section1">
+        <h1 class="heading">About Me</h1>
+        <p class="aboutMe"> Hello and welcome to my portfolio! My name is Alex Scribner and I am a junior developer at
+                Eleven Fifty Academy. I graduated from Lapel High School in 2016 and then went off to Purdue University. I started at the
+                university in the exploratory program they have there. At the end of the year, I was still in the same postion
+                from the beginning, I had no idea on what I wanted to pursue as a career let alone a major. So instead of wasting 
+                thousands of dollars at Purdue, I decided to stay at home and attend Ivy Tech where I was doing the same thing I was
+                doing at Purdue except for less money.<br>
+                I have always had a fascination with the designs and layouts of websites. Since I was younger, I always wanted to create and design my own 
+                website. When I heard about Eleven Fifty Academy, I immediately thought it was the best opportunity for myself.
+                I cannot thank Eleven Fifty enough for giving me this opportunity and believing in me. This is the most excitement 
+                I have had for school in all my life and I am ready to expand my coding skills!
+        </p>
+    </div>
+
+<!--Section 2: Projects-->
+
+  <div class="parallax2"></div>
+    <div class="section2">
+      <h1>Projects</h1>
+        <p>Here are some projects that i have been working on since being here at ElevenFifty!</p>
+        <p>This section will grow as the time goes on!</p>
+                  <div class="album py-5 ">
+                      <div class="projectContainer">
+                        <div class="row">
+                          <p class="port_titles"> ~A simple HTML & CSS character~ </p>
+                            <div class="col-md-4 projects" title="CSS Creature">
+                                <div class="card mb-4 shadow-sm">                                
+                                       
+                                    <a href="https://codepen.io/alexscribner/pen/GVOVqN">
+                                    <img src="assets/CSS Creature.png" class="bd-placeholder-img card-img-top" id="cssCreature">
+                                    <h2>CSS Creature</h2>                                     
+                                  
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                     
+                        <div class="projectContainer">
+                          <div class="row">
+                            <p class="port_titles"> ~A Static Webpage I Recreated~ </p>
+                            <div class="col-md-4 projects" title="Static Layout">
+                                <div class="card mb-4 shadow-sm">
+                                           
+                                    <a href="https://alexscribner.github.io/staticLayout/">
+                                      <img src="assets/Static Layout.png" class="bd-placeholder-img card-img-top">
+                                      <h2>Static Layout</h2>                                          
+                                  
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                          
+                              <div class="projectContainer">
+                                <div class="row">
+                                  <p class="port_titles"> ~Pulled Data From an API and Created a Webpage~ </p>
+                                    <div class="col-md-4 projects" title="API Project">
+                                        <div class="card mb-4 shadow-sm">
+                                                     
+                                        <a href="https://alexscribner.github.io/staticLayout/">
+                                          <img src="assets/API Project.png" class="bd-placeholder-img card-img-top">
+                                          <h2>API Project</h2>                                             
+                                        
+                                      </div>
+                                    </a>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                          </div>
+                                                     
+<!--Section 3: Contact-->
+
+    <div class="parallax3"></div>
+        <div class="section3">
+            <h1>Contact Me</h1>
+            <p>If you have any questions or would like to reach me, 
+              <p>please leave your name and your email below with a message.</p>
+              <p>Thank you!</p>
+            <section id="contact">
+                    <div class= "contactMe animated slideInLeft">
+                   <div class="container">
+                     <div class="row">
+                         <h2>Contact Form</h2>
+                       <form action="https://formspree.io/allexscribner@gmail.com" method="POST">
+                         <div class="control-group">
+                           <div class="form-group">
+                             <label></label>
+                             <input
+                               type="text"
+                               class="form-control"
+                               placeholder="Name"
+                               id="name"
+                               required
+                               data-validation-required-message="Please enter your name"
+                               name="name"
+                               >
+                             <p class="help-block text-danger"></p>
+                           </div>
+                         </div>
+                         <div class="control-group">
+                           <div class="form-group">
+                             <label></label>
+                             <input
+                               type="email"
+                               class="form-control"
+                               placeholder="Email"
+                               id="email"
+                               required
+                               data-validation-required-message="Please enter your email"
+                               name="_replyto"
+                             >
+                             <p class="help-block text-danger"></p>
+                           </div>
+                         </div>
+                         <div class="control-group">
+                           <div class="form-group">
+                             <textarea
+                               class="form-control"
+                               rows="7"
+                               placeholder="Message"
+                               id="message"
+                               required
+                               data-validation-required-message="Please leave a message"
+                               name="message"
+                             ></textarea>
+                             <p class="help-block text-danger"></p>
+                           </div>
+                         </div>
+                         <div class="text-center">
+                           <div id="success"></div>
+                           <button type="submit" class="btn btn-lg btn-black">
+                             <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                             Send 
+                           </button>
+                         </div>
+                       </form>
+                     </div>
+                   </div>
+                  </div>
+                 </section>
+        </div>
+    
+<!--Footer-->
+    <div class="footer">
+        <footer>
+            <p> | © 2019 Created and Published by: Alex Scribner | Portfolio |</p>
+        </footer>
+    </div>
+</body>
+</html>

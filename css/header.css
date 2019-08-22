@@ -1,0 +1,46 @@
+/* NavBar */
+#nav_bar {
+    float: none;
+    display: inline;
+}
+#nav_bar #aboutMe{
+    float: right;
+}
+#nav_bar #projects{
+    float: right;
+}
+#nav_bar #name {
+    background: black; 
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px; 
+    font-weight: bold;
+    float: left;
+}
+#nav_bar #contactMe{
+    float: right;
+}
+#nav_bar li {
+    display: inline-block;
+    padding: 8px;
+}
+.nav-links {
+    color: white;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-right: 15px;
+    padding: 3px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li.nav-links a:hover {
+    text-decoration: underline;
+}
+#name:hover { 
+    box-shadow: 5px 5px 5px #14A989;
+}
+#name {
+    color: #fff;
+}

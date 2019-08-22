@@ -1,0 +1,109 @@
+/* Body */
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+/* NavBar */
+.navbar{
+    display: inline-flex;
+}
+#box{
+    position: relative;
+    left: 4%;
+    top: 45%;
+    right:4%;
+    bottom:50%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+@keyframes mymove{
+    0% {background-color: rgb(99, 76, 76);}
+    50% {background-color: white; color: black;}
+    100%{background-color: black; color: white;}
+}
+#border{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    letter-spacing: 12px;
+    border: solid 6px white;
+    border-style: groove;
+    animation: mymove 1.8s infinite;
+
+}
+/* Parallax */
+.parallax1 {
+    background-image: url('https://i.imgur.com/VyYX7cP.gif');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+}
+.parallax2{
+    background-image: url('https://picserio.com/data/out/10/black-and-white-graphic-wallpaper_2351652.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth; 
+}
+.parallax3{
+    background-image: url('https://assets.awwwards.com/awards/images/2018/09/thumb-blackwhite2.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    scroll-behavior: smooth; 
+}
+/* Sections */
+.section1{
+    text-align: left;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 17px;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-color: #14A989;
+    color: whitesmoke;
+    border: solid 10px white;
+    border-style: groove;
+}
+.section2{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 17px;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-color: #14A989;
+    color: whitesmoke;
+    border: solid 10px white;
+    border-style: groove;
+}
+.section3{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 17px;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-color: #14A989;
+    color: whitesmoke;
+    border: solid 10px white;
+    border-style: groove;
+}
+/* Tags/Titles */
+h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
+    letter-spacing: 6px;
+}
